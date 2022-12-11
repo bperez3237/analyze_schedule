@@ -5,7 +5,10 @@ from datetime import date
 import pprint as pp
 import json
 from formats import *
+# import matplotlib.pyplot as plt 
 
-cost_rprt_xls = pd.ExcelFile(r'C:\Users\bperez\Iovino Enterprises, LLC\M007-NYCHA-Coney Island Sites - Documents\General\08 - BUDGET & COST\Cost Codes\Contract Forecasting Spreadsheet\Period 12 Export 12.09.22.xlsx')
-cost_rprt = pd.read_excel(cost_rprt_xls)
+from LoadData import scheudle_df, cost_rprt_df
+
+print(scheudle_df)
+print(cost_rprt_df)
 
